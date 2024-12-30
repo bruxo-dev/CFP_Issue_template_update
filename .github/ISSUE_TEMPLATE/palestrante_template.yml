@@ -38,17 +38,17 @@ body:
       required: false
 
   - type: input
-    id: facebook
+    id: instagram
     attributes:
-      label: Facebook
+      label: Instagram
       description: Link para o seu perfil no Instagram (opcional).
       placeholder: "https://www.instagram.com/usuario"
       required: false
 
   - type: input
-    id: twitter
+    id: x
     attributes:
-      label: Twitter
+      label: X
       description: Link para o seu perfil no X (opcional).
       placeholder: "https://x.com/usuario"
       required: false
