@@ -12,7 +12,7 @@ body:
       description: Título descritivo e interessante.
       placeholder: "Título da palestra"
     validations:
-    required: false
+      required: false
 
   - type: input
     id: palavras_chave
