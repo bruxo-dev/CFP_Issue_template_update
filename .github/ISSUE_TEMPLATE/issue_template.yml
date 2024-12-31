@@ -1,8 +1,5 @@
-name: Cadastro de Palestra
+name: Cadastro de palestra
 description: Use este template para cadastrar sua palestra.
-title: "[PALESTRA] "
-labels: ["palestra"]
-assignees: []
 
 body:
   - type: input
@@ -11,7 +8,8 @@ body:
       label: Título
       description: Título descritivo e interessante.
       placeholder: "Título da palestra"
-      #required: true
+    validations:
+      required: true
 
   - type: input
     id: palavras_chave
@@ -19,7 +17,8 @@ body:
       label: Palavras-chave
       description: Palavras-chave relacionadas à palestra.
       placeholder: "keyword1, keyword2, keyword3"
-      #required: true
+    validations:
+      required: true
 
   - type: input
     id: nivel
@@ -27,7 +26,8 @@ body:
       label: Nível
       description: Nível da palestra.
       placeholder: "básico"
-      #required: true
+    validations:
+      required: true
 
   - type: input
     id: palestrante
@@ -35,7 +35,9 @@ body:
       label: Palestrante
       description: Nome do palestrante com link para a issue criada com seus dados.
       placeholder: "[Nome Completo](link da issue)"
-      #required: true
+    validations:
+      required: true
+
 
   - type: textarea
     id: descricao
@@ -43,7 +45,9 @@ body:
       label: Descrição da palestra
       description: Uma descrição detalhada da palestra.
       placeholder: "Lorem ipsum dolor sit amet, consectetur adipisicing elit..."
-      #required: true
+    validations:
+      required: true
+
 
   - type: input
     id: slides
@@ -51,7 +55,9 @@ body:
       label: Slides
       description: Link para os slides publicados (opcional).
       placeholder: "link para os slides"
-      #required: false
+    validations:
+      required: false
+
 
   - type: input
     id: video
@@ -59,13 +65,14 @@ body:
       label: Vídeo
       description: Link para o vídeo publicado (opcional).
       placeholder: "link para o vídeo"
-      #required: false
+    validations:
+      required: false
 
   - type: input
     id: github
     attributes:
       label: GitHub
       description: Link para o repositório do GitHub com exemplos (opcional).
-      placeholder: "link para repositório do GitHub"
-      #required: false
-#30122024
+      placeholder: "link para repositório"
+    validations:
+      required: false
