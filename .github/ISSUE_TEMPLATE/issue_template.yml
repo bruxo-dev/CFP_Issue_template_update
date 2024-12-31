@@ -1,8 +1,8 @@
 name: Cadastro de Palestra
 description: Use este template para cadastrar sua palestra.
-title: "[PALESTRA] "
-labels: ["palestra"]
-assignees: []
+#title: "[PALESTRA] "
+#labels: ["palestra"]
+#assignees: []
 
 body:
   - type: input
