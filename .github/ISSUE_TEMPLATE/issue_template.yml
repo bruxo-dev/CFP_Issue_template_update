@@ -1,4 +1,4 @@
-name: Cadastro de Palestra
+name: Cadastro de palestra
 description: Use este template para cadastrar sua palestra.
 
 body:
@@ -20,12 +20,15 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: dropdown
     id: nivel
     attributes:
       label: Nível
       description: Nível da palestra.
-      placeholder: "básico"
+      options:
+        - Iniciante
+        - Intermediário
+        - Avançado
     validations:
       required: true
 
@@ -38,6 +41,7 @@ body:
     validations:
       required: true
 
+
   - type: textarea
     id: descricao
     attributes:
@@ -45,7 +49,8 @@ body:
       description: Uma descrição detalhada da palestra.
       placeholder: "Lorem ipsum dolor sit amet, consectetur adipisicing elit..."
     validations:
-      required: true 
+      required: true
+
 
   - type: input
     id: slides
@@ -55,6 +60,7 @@ body:
       placeholder: "link para os slides"
     validations:
       required: false
+
 
   - type: input
     id: video
