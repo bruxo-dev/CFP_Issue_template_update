@@ -20,12 +20,15 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: dropdown
     id: nivel
     attributes:
       label: Nível
       description: Nível da palestra.
-      placeholder: "básico"
+      options:
+        - Iniciante
+        - Intermediário
+        - Avançado
     validations:
       required: true
 
