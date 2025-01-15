@@ -1,6 +1,6 @@
 name: Palestrante
 description: Use este template para cadastrar informações do palestrante.
-
+labels: ["Palestrantes"]
 body:
   - type: input
     id: nome
